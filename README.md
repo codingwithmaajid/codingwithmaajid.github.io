@@ -1,57 +1,30 @@
-# Abdul Maajid — Personal Portfolio Website
-
-![Portfolio Preview](photo.jpeg)
+# Abdul Maajid — Portfolio Website
 
 ## 🌐 Live Site
 [codingwithmaajid.github.io](https://codingwithmaajid.github.io)
 
 ---
 
-## 👨‍💻 About
-Personal portfolio website for **Abdul Maajid**, a Computer Science 
-student at Aalimec. Built to showcase skills, projects, and journey 
-as a developer.
+## 👋 About This Site
+This is my personal portfolio website where I showcase who I am,
+what I'm learning, and where I'm headed as a CS student and developer.
 
 ---
 
+
 ## 🛠️ Built With
-- HTML5
-- CSS3 (Tailwind CSS)
-- Vanilla JavaScript
+- HTML5, CSS3, Vanilla JavaScript
 - Playfair Display & Inter (Google Fonts)
+- Tailwind CSS components via Stitch AI
 
 ---
 
 ## 📌 Sections
-- **Hero** — Introduction with typewriter animation
-- **About** — Bio, quote and badges
-- **Skills** — Animated progress bars
-- **Timeline** — Academic & professional journey
-- **Projects** — Portfolio projects
-- **Blog** — Tech articles & insights
-- **Contact** — Contact form & social links
+- Hero, About, Skills, Timeline, Projects, Blog, Contact
 
 ---
 
-## 📬 Connect With Me
-- 📧 Email: abdulmaajid7002@gmail.com
-- 💼 LinkedIn: [codingwithmaajid](https://www.linkedin.com/in/codingwithmaajid)
-- 🐙 GitHub: [codingwithmaajid](https://github.com/codingwithmaajid)
-
----
-
-## 🚀 Run Locally
-1. Clone the repo:
-```bash
-   git clone https://github.com/codingwithmaajid/codingwithmaajid.github.io
-```
-2. Open `index.html` in your browser
-
----
-
-## 📄 License
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-⭐ If you like this portfolio, consider giving it a star!
+## 📬 Let's Connect
+- 📧 abdulmaajid7002@gmail.com
+- 💼 [LinkedIn](https://www.linkedin.com/in/codingwithmaajid)
+- 🐙 [GitHub](https://github.com/codingwithmaajid)
