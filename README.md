@@ -11,7 +11,6 @@ what I'm learning, and where I'm headed as a CS student and developer.
 
 ---
 
-
 ## 🛠️ Built With
 - HTML5, CSS3, Vanilla JavaScript
 - Playfair Display & Inter (Google Fonts)
