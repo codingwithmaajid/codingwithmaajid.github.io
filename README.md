@@ -1,7 +1,7 @@
 # Abdul Maajid — Portfolio Website
 
 ## 🌐 Live Site
-[codingwithmaajid.github.io](https://codingwithmaajid.github.io)
+[https://www.abdulmaajid.dev/](https://www.abdulmaajid.dev/)
 
 ---
 
