@@ -12,7 +12,7 @@ what I'm learning, and where I'm headed as a CS student and developer.
 ---
 
 ## 🛠️ Built With
-- HTML5, CSS3, Vanilla JavaScript
+- HTML5
 - Playfair Display & Inter (Google Fonts)
 - Tailwind CSS components via Stitch AI
 
