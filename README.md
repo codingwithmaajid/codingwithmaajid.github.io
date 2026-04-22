@@ -1,4 +1,4 @@
-# Abdul Maajid — Portfolio Website
+# Abdul Maajid — My  Portfolio Website
 
 ## 🌐 Live Site
 [https://www.abdulmaajid.dev/](https://www.abdulmaajid.dev/)
