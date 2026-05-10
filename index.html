@@ -1404,9 +1404,7 @@
             <a class="text-white px-2 py-1 hover:bg-white hover:text-black transition-colors duration-100"
                 href="#blog">Blog</a>
             <a class="text-white px-2 py-1 hover:bg-white hover:text-black transition-colors duration-100"
-                href="#"><br></a>
-            <a class="text-white px-2 py-1 hover:bg-white hover:text-black transition-colors duration-100"
-                href="#">Contact</a>
+                href="#contact">Contact</a>
         </div>
         <button class="md:hidden material-symbols-outlined text-white">menu</button>
     </nav>
@@ -1423,14 +1421,14 @@
                     <p class="font-body text-xl md:text-2xl text-white opacity-70 max-w-xl leading-relaxed"><br></p>
                 </div>
                 <div class="flex flex-wrap gap-4">
-                    <button
+                    <a href="#projects"
                         class="bg-white text-black px-8 py-4 font-headline font-bold uppercase tracking-tight border-2 border-white hard-shadow inset-shadow-active transition-all">
                         View My Work
-                    </button>
-                    <button
+                    </a>
+                    <a href="https://github.com/codingwithmaajid" target="_blank" rel="noopener noreferrer"
                         class="bg-transparent text-white px-8 py-4 font-headline font-bold uppercase tracking-tight border-2 border-white hover:bg-white hover:text-black transition-all inset-shadow-active">
-                        Download CV
-                    </button>
+                        GitHub
+                    </a>
                 </div>
             </div>
             <div class="relative group">
@@ -1461,7 +1459,7 @@
                 <span class="font-headline font-bold uppercase text-sm tracking-widest">Blog</span>
             </a>
             <a class="border-2 border-white bg-black p-6 text-center group transition-all hard-shadow-sm hover:translate-y-[-2px] hover:translate-x-[-2px] active:translate-y-0 active:translate-x-0 active:shadow-none active:bg-white active:text-black"
-                href="#">
+                href="#contact">
                 <span class="material-symbols-outlined text-4xl mb-3 block">alternate_email</span>
                 <span class="font-headline font-bold uppercase text-sm tracking-widest">Contact</span>
             </a>
@@ -1533,15 +1531,7 @@
                 <h2 class="font-headline text-4xl font-bold uppercase tracking-tighter text-white">Projects</h2>
                 <span class="font-label text-xs opacity-50 uppercase text-white">EXECUTING_ARCHIVE_CORE</span>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-
-
-
-                <!-- Project Window 1 -->
-
-
-
-                <!-- Project Window 2 -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="border-2 border-white bg-black hard-shadow flex flex-col group overflow-hidden">
                     <div class="bg-zinc-800 border-b-2 border-white p-2 flex justify-between items-center">
                         <div class="flex gap-1.5">
@@ -1552,26 +1542,164 @@
                         <span class="font-label text-[10px] uppercase font-bold text-white">Vox.app</span>
                     </div>
                     <div class="p-6 space-y-4 flex-grow flex flex-col">
-                        <div class="border-2 border-white aspect-video overflow-hidden mb-2">
-                            <img alt="TUI Shell Framework"
-                                class="w-full h-full object-cover grayscale brightness-125 contrast-150 group-hover:scale-105 transition-transform duration-500"
-                                data-alt="Macro photography of code on a high-resolution CRT monitor, visible scanlines and monochrome pixel grids"
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxtzt6yDcQ4NoDzNTsgxgDz0Ty99_OwieI2dsrCXJgl9a-4Tc-619o9_oSdwev-LNmW-f9qZLVAqPKL4y-dKNXp8UzXGlFIR6Ou_ygOCdEimvMUGAeDvLfz-4QDRrv8DmPPCa8yCn2SY6luhW6jKKbr2pqzK1qCLwaYwkMEackrP7s0P4fjkKu3imk1p9zFUGJXk-U8DEhmyVTaY5SToZKqp1VofAM7thGNj300u13FYaWJzPhcStdTjPoqwXvpXLAsIM3TRPqvj8">
+                        <div class="border-2 border-white aspect-video mb-2 flex items-center justify-center bg-zinc-950">
+                            <span class="material-symbols-outlined text-6xl text-white">terminal</span>
                         </div>
                         <h3 class="font-headline text-2xl font-bold uppercase tracking-tight text-white">Vox
                         </h3>
                         <p class="text-white opacity-70 font-body leading-relaxed flex-grow">
-                            An all-in-one AI tool that turns any YouTube video into study material. Built to make AI
-                            features accessible to everyone — no subscriptions, no complicated setup.
-
-
+                            AI CLI that turns YouTube videos into summaries, notes, quizzes, key points, and Q&A using
+                            Python, Textual, Click, and Groq.
                         </p>
                         <a class="block w-full py-3 border-2 border-white font-headline font-bold uppercase text-sm bg-transparent text-white text-center hover:bg-white hover:text-black transition-colors inset-shadow-active mt-4"
-                            href="https://github.com/codingwithmaajid/Vox" target="_blank">
+                            href="https://github.com/codingwithmaajid/Vox" target="_blank" rel="noopener noreferrer">
                             View Project
                         </a>
                     </div>
                 </div>
+                <div class="border-2 border-white bg-black hard-shadow flex flex-col group overflow-hidden">
+                    <div class="bg-zinc-800 border-b-2 border-white p-2 flex justify-between items-center">
+                        <div class="flex gap-1.5">
+                            <div class="w-3 h-3 rounded-full border border-white bg-white"></div>
+                            <div class="w-3 h-3 rounded-full border border-white"></div>
+                            <div class="w-3 h-3 rounded-full border border-white"></div>
+                        </div>
+                        <span class="font-label text-[10px] uppercase font-bold text-white">Solarisk.extension</span>
+                    </div>
+                    <div class="p-6 space-y-4 flex-grow flex flex-col">
+                        <div class="border-2 border-white aspect-video mb-2 flex items-center justify-center bg-zinc-950">
+                            <span class="material-symbols-outlined text-6xl text-white">security</span>
+                        </div>
+                        <h3 class="font-headline text-2xl font-bold uppercase tracking-tight text-white">Solarisk</h3>
+                        <p class="text-white opacity-70 font-body leading-relaxed flex-grow">
+                            Chrome extension security copilot for Solana/Web3 pages. It scans page context, explains
+                            risk, and returns a simple allow, warn, protect, or block policy.
+                        </p>
+                        <a class="block w-full py-3 border-2 border-white font-headline font-bold uppercase text-sm bg-transparent text-white text-center hover:bg-white hover:text-black transition-colors inset-shadow-active mt-4"
+                            href="https://github.com/codingwithmaajid/Solarisk" target="_blank" rel="noopener noreferrer">
+                            View Project
+                        </a>
+                    </div>
+                </div>
+                <div class="border-2 border-white bg-black hard-shadow flex flex-col group overflow-hidden">
+                    <div class="bg-zinc-800 border-b-2 border-white p-2 flex justify-between items-center">
+                        <div class="flex gap-1.5">
+                            <div class="w-3 h-3 rounded-full border border-white bg-white"></div>
+                            <div class="w-3 h-3 rounded-full border border-white"></div>
+                            <div class="w-3 h-3 rounded-full border border-white"></div>
+                        </div>
+                        <span class="font-label text-[10px] uppercase font-bold text-white">StackSage.cli</span>
+                    </div>
+                    <div class="p-6 space-y-4 flex-grow flex flex-col">
+                        <div class="border-2 border-white aspect-video mb-2 flex items-center justify-center bg-zinc-950">
+                            <span class="material-symbols-outlined text-6xl text-white">bug_report</span>
+                        </div>
+                        <h3 class="font-headline text-2xl font-bold uppercase tracking-tight text-white">StackSage JVM</h3>
+                        <p class="text-white opacity-70 font-body leading-relaxed flex-grow">
+                            Java CLI that turns noisy JVM stack traces into readable debugging reports with likely source
+                            location, crash path, and focused fix suggestions.
+                        </p>
+                        <a class="block w-full py-3 border-2 border-white font-headline font-bold uppercase text-sm bg-transparent text-white text-center hover:bg-white hover:text-black transition-colors inset-shadow-active mt-4"
+                            href="https://github.com/codingwithmaajid/Codebrew" target="_blank" rel="noopener noreferrer">
+                            View Project
+                        </a>
+                    </div>
+                </div>
+                <div class="border-2 border-white bg-black hard-shadow flex flex-col group overflow-hidden">
+                    <div class="bg-zinc-800 border-b-2 border-white p-2 flex justify-between items-center">
+                        <div class="flex gap-1.5">
+                            <div class="w-3 h-3 rounded-full border border-white bg-white"></div>
+                            <div class="w-3 h-3 rounded-full border border-white"></div>
+                            <div class="w-3 h-3 rounded-full border border-white"></div>
+                        </div>
+                        <span class="font-label text-[10px] uppercase font-bold text-white">GmailDigest.workflow</span>
+                    </div>
+                    <div class="p-6 space-y-4 flex-grow flex flex-col">
+                        <div class="border-2 border-white aspect-video mb-2 flex items-center justify-center bg-zinc-950">
+                            <span class="material-symbols-outlined text-6xl text-white">mark_email_unread</span>
+                        </div>
+                        <h3 class="font-headline text-2xl font-bold uppercase tracking-tight text-white">Gmail to Telegram</h3>
+                        <p class="text-white opacity-70 font-body leading-relaxed flex-grow">
+                            n8n automation that watches Gmail, summarizes messages with a Groq LLM chain, and sends a
+                            structured digest to Telegram.
+                        </p>
+                        <a class="block w-full py-3 border-2 border-white font-headline font-bold uppercase text-sm bg-transparent text-white text-center hover:bg-white hover:text-black transition-colors inset-shadow-active mt-4"
+                            href="https://github.com/codingwithmaajid/Gmail-to-Telegram-digest" target="_blank" rel="noopener noreferrer">
+                            View Project
+                        </a>
+                    </div>
+                </div>
+                <div class="border-2 border-white bg-black hard-shadow flex flex-col group overflow-hidden">
+                    <div class="bg-zinc-800 border-b-2 border-white p-2 flex justify-between items-center">
+                        <div class="flex gap-1.5">
+                            <div class="w-3 h-3 rounded-full border border-white bg-white"></div>
+                            <div class="w-3 h-3 rounded-full border border-white"></div>
+                            <div class="w-3 h-3 rounded-full border border-white"></div>
+                        </div>
+                        <span class="font-label text-[10px] uppercase font-bold text-white">RoomMate.agent</span>
+                    </div>
+                    <div class="p-6 space-y-4 flex-grow flex flex-col">
+                        <div class="border-2 border-white aspect-video mb-2 flex items-center justify-center bg-zinc-950">
+                            <span class="material-symbols-outlined text-6xl text-white">home_work</span>
+                        </div>
+                        <h3 class="font-headline text-2xl font-bold uppercase tracking-tight text-white">RoomMate Match</h3>
+                        <p class="text-white opacity-70 font-body leading-relaxed flex-grow">
+                            Kotlin Buildathon project: a conversational roommate matching agent with Groq-powered NLP,
+                            local memory, voice input, and Telegram follow-ups.
+                        </p>
+                        <a class="block w-full py-3 border-2 border-white font-headline font-bold uppercase text-sm bg-transparent text-white text-center hover:bg-white hover:text-black transition-colors inset-shadow-active mt-4"
+                            href="https://github.com/codingwithmaajid/Kotlin-Buildathon" target="_blank" rel="noopener noreferrer">
+                            View Project
+                        </a>
+                    </div>
+                </div>
+                <div class="border-2 border-white bg-black hard-shadow flex flex-col group overflow-hidden">
+                    <div class="bg-zinc-800 border-b-2 border-white p-2 flex justify-between items-center">
+                        <div class="flex gap-1.5">
+                            <div class="w-3 h-3 rounded-full border border-white bg-white"></div>
+                            <div class="w-3 h-3 rounded-full border border-white"></div>
+                            <div class="w-3 h-3 rounded-full border border-white"></div>
+                        </div>
+                        <span class="font-label text-[10px] uppercase font-bold text-white">FocusMode.extension</span>
+                    </div>
+                    <div class="p-6 space-y-4 flex-grow flex flex-col">
+                        <div class="border-2 border-white aspect-video mb-2 flex items-center justify-center bg-zinc-950">
+                            <span class="material-symbols-outlined text-6xl text-white">visibility_off</span>
+                        </div>
+                        <h3 class="font-headline text-2xl font-bold uppercase tracking-tight text-white">YouTube Focus Mode</h3>
+                        <p class="text-white opacity-70 font-body leading-relaxed flex-grow">
+                            Privacy-friendly Chrome extension that hides Shorts, homepage recommendations, and sidebar
+                            distractions so YouTube stays focused.
+                        </p>
+                        <a class="block w-full py-3 border-2 border-white font-headline font-bold uppercase text-sm bg-transparent text-white text-center hover:bg-white hover:text-black transition-colors inset-shadow-active mt-4"
+                            href="https://github.com/codingwithmaajid/youtube-focus-mode" target="_blank" rel="noopener noreferrer">
+                            View Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GitHub Snapshot Section -->
+        <section class="space-y-8" id="github">
+            <div class="flex justify-between items-end border-b-2 border-white pb-4">
+                <h2 class="font-headline text-4xl font-bold uppercase tracking-tighter text-white">GitHub Snapshot</h2>
+                <span class="font-label text-xs opacity-50 uppercase text-white">PUBLIC_REPOS // UPDATED</span>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="border-2 border-white bg-black p-6 hard-shadow-sm">
+                    <span class="font-label text-xs uppercase text-white/50">Recent Direction</span>
+                    <p class="font-headline text-2xl font-bold uppercase mt-2">AI tools, browser extensions, and automation</p>
+                </div>
+                <div class="border-2 border-white bg-black p-6 hard-shadow-sm">
+                    <span class="font-label text-xs uppercase text-white/50">Working Stack</span>
+                    <p class="font-headline text-2xl font-bold uppercase mt-2">Python, Java, Kotlin, FastAPI, Docker, n8n</p>
+                </div>
+                <a class="border-2 border-white bg-black p-6 hard-shadow-sm hover:bg-white hover:text-black transition-colors"
+                    href="https://github.com/codingwithmaajid?tab=repositories" target="_blank" rel="noopener noreferrer">
+                    <span class="font-label text-xs uppercase opacity-50">Archive Link</span>
+                    <p class="font-headline text-2xl font-bold uppercase mt-2">Open GitHub Repositories</p>
+                </a>
             </div>
         </section>
 
@@ -1623,7 +1751,9 @@
                         </div>
                         <span class="text-[10px] uppercase font-bold text-white">2026-03-28-blog.pdf</span>
                     </div>
-                    <img src="images/blog2.jpg" class="w-full h-40 object-cover" />
+                    <div class="w-full h-40 border-b-2 border-white bg-zinc-950 flex items-center justify-center">
+                        <span class="material-symbols-outlined text-6xl text-white">code_blocks</span>
+                    </div>
                     <div class="p-4">
                         <h3 class="text-white font-bold">GitHub Confusion Fix 😭</h3>
                         <p class="text-white/70 text-sm mt-2">
@@ -1665,7 +1795,7 @@
 
 
         <!-- Footer -->
-        <footer
+        <footer id="contact"
             class="w-full border-t-2 border-white px-8 py-8 flex flex-col md:flex-row justify-between items-center gap-6 bg-black">
             <div class="max-w-7xl mx-auto w-full flex flex-col md:flex-row justify-between items-center gap-6">
                 <div class="font-['Space_Grotesk'] font-bold uppercase tracking-tighter text-lg text-white">
@@ -1696,5 +1826,6 @@
             </div>
         </footer>
         <!-- FAB for Task Alignment -->
-
+</main>
+</body>
 </html>

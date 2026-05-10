@@ -13,13 +13,13 @@ what I'm learning, and where I'm headed as a CS student and developer.
 
 ## 🛠️ Built With
 - HTML5
-- Playfair Display & Inter (Google Fonts)
+- Space Grotesk & Work Sans (Google Fonts)
 - Tailwind CSS components via Stitch AI
 
 ---
 
 ## 📌 Sections
-- Hero, About, Skills, Timeline, Projects, Blog, Contact
+- Hero, About, Projects, GitHub Snapshot, Blog, Contact
 
 ---
 
