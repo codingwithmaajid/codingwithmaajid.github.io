@@ -1,0 +1,121 @@
+:root {
+    --bg: #050505;
+    --text: #f5f5f5;
+    --muted: #a1a1aa;
+    --faint: #6f6f76;
+    --rule: #242424;
+    --link-underline: rgba(245, 245, 245, 0.34);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    background: var(--bg);
+    color-scheme: dark;
+    text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Geist", "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+.page-shell {
+    width: min(100% - 48px, 720px);
+    margin: 0 auto;
+    padding: clamp(92px, 17vh, 168px) 0 clamp(76px, 14vh, 136px);
+}
+
+h1 {
+    margin: 0;
+    color: var(--text);
+    font-size: clamp(2.55rem, 6.4vw, 5.4rem);
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0;
+}
+
+.notebook {
+    margin-top: clamp(44px, 7vw, 68px);
+}
+
+p {
+    max-width: 700px;
+    margin: 0;
+    color: var(--muted);
+    font-size: clamp(1.08rem, 1.7vw, 1.28rem);
+    font-weight: 400;
+    line-height: 1.72;
+    letter-spacing: 0;
+}
+
+.lead {
+    color: var(--text);
+    font-size: clamp(1.2rem, 2vw, 1.48rem);
+    line-height: 1.62;
+}
+
+p + p {
+    margin-top: 1.5em;
+}
+
+a {
+    color: var(--text);
+    text-decoration-line: underline;
+    text-decoration-color: var(--link-underline);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.22em;
+    transition: text-decoration-color 160ms ease, color 160ms ease;
+}
+
+a:hover,
+a:focus-visible {
+    color: #ffffff;
+    text-decoration-color: #ffffff;
+}
+
+a:focus-visible {
+    outline: 1px solid #ffffff;
+    outline-offset: 4px;
+}
+
+::selection {
+    background: #f5f5f5;
+    color: #050505;
+}
+
+@media (max-width: 640px) {
+    .page-shell {
+        width: min(100% - 32px, 740px);
+        padding-top: 76px;
+        padding-bottom: 72px;
+    }
+
+    .notebook {
+        margin-top: 40px;
+    }
+
+    p {
+        font-size: 1.04rem;
+        line-height: 1.68;
+    }
+
+    .lead {
+        font-size: 1.13rem;
+        line-height: 1.62;
+    }
+
+    p + p {
+        margin-top: 1.4em;
+    }
+}
