@@ -12,7 +12,7 @@ what I'm learning, and where I'm headed as a CS student and developer.
 ---
 
 ## 🛠️ Built With
-- HTML5
+- HTML5( changed to svelte)
 - Space Grotesk & Work Sans (Google Fonts)
 - Tailwind CSS components via Stitch AI
 
